@@ -1,0 +1,30 @@
+{
+  "$schemaVersion": "0.1.0",
+  "extensions": {
+    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/product-manager/omni-broker-product-manager.agent.md"
+  },
+  "links": [],
+  "owners": [],
+  "role": "product-manager",
+  "slug": "omni-broker-product-manager",
+  "status": "draft",
+  "tags": [],
+  "title": "OmniBroker Product Manager – AGENT",
+  "updated": "2025-09-22T03:36:15Z",
+  "purpose": "Role Summary Own the product direction for OmniBroker.",
+  "sections": [
+    {
+      "slug": "omnibroker-product-manager-agent",
+      "title": "OmniBroker Product Manager – AGENT",
+      "kind": "bullets",
+      "items": [
+        "Maintain `product_spec.md` and `roadmap.md`."
+      ]
+    }
+  ],
+  "notes": {
+    "author": "",
+    "date": "",
+    "blocks": []
+  }
+}

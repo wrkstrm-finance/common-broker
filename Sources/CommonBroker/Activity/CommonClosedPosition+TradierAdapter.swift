@@ -1,0 +1,16 @@
+import Foundation
+import TradierLib
+
+extension CommonClosedPosition {
+  public init(_ cp: Tradier.ClosedPosition) {
+    symbol = cp.symbol
+    quantity = cp.quantity
+    realizedPnl = cp.gainLoss
+    openDate = cp.openDate
+    closeDate = cp.closeDate
+    cost = cp.cost
+    proceeds = cp.proceeds
+    gainLossPercent = cp.gainLossPercent
+    term = cp.term
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "0.1.0",
+  "entries": [
+    {
+      "title": "OmniBroker Project Manager – AGENCY",
+      "details": [
+        "Initialized project scaffolding."
+      ]
+    }
+  ],
+  "extensions": {
+    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/project-manager/omni-broker-project-manager.agency.md"
+  },
+  "links": [],
+  "owners": [],
+  "slug": "omni-broker-project-manager",
+  "status": "draft",
+  "tags": [],
+  "title": "Omni Broker Project Manager Agency",
+  "updated": "2025-09-22T03:36:15Z",
+  "notes": {
+    "author": "",
+    "date": "",
+    "blocks": []
+  }
+}
