@@ -19,3 +19,18 @@ platform targeting), see:
 - `../../swift-service-architecture.md` — Swift service architecture for CommonShell and CommonBroker,
   including notes on compiling out incompatible code per-platform and using WrkstrmLog with a
   print-only backend on WASM.
+
+## JSON key mapping: Do/Don’t
+
+- Do define explicit `CodingKeys` for snake_case wire fields.
+
+```swift
+struct Balance: Decodable {
+  let accountNumber: String
+  enum CodingKeys: String, CodingKey { case accountNumber = "account_number" }
+}
+```
+
+- Don’t set `.convertFromSnakeCase` / `.convertToSnakeCase` on decoders/encoders.
+
+See: ../../../../WrkstrmFoundation/Sources/WrkstrmFoundation/Documentation.docc/AvoidSnakeCaseKeyStrategies.md
