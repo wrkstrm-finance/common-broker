@@ -1,62 +1,72 @@
 {
-  "$schemaVersion": "0.1.0",
-  "agent": {
-    "role": "product-manager"
+  "agent" : {
+    "role" : "product-manager"
   },
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/product-manager/omni-broker-product-manager.agenda.md"
-  },
-  "horizons": [
+  "horizons" : [
     {
-      "key": "near",
-      "label": "Near-Term"
+      "key" : "near",
+      "label" : "Near-Term"
     },
     {
-      "key": "mid",
-      "label": "Mid-Term"
+      "key" : "mid",
+      "label" : "Mid-Term"
     },
     {
-      "key": "far",
-      "label": "Long-Term"
+      "key" : "far",
+      "label" : "Long-Term"
     }
   ],
-  "links": [],
-  "milestones": [],
-  "owners": [],
-  "slug": "omni-broker-product-manager",
-  "status": "draft",
-  "tags": [],
-  "title": "AGENDA — OmniBroker Product Manager",
-  "updated": "2025-09-22T03:36:15Z",
-  "sections": [
+  "links" : [
+
+  ],
+  "milestones" : [
+
+  ],
+  "notes" : [
     {
-      "slug": "near-term",
-      "title": "Near-Term",
-      "kind": "paragraphs",
-      "items": [
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
+    }
+  ],
+  "owners" : [
+
+  ],
+  "schemaVersion" : "0.3.0",
+  "sections" : [
+    {
+      "items" : [
         "\\- Define acceptance for Public-backed services (Profile, Positions, Activity, Orders) with Common\\* adapters. \\- Confirm environment selection UX (sandbox vs production) and service registry behavior. \\- Establish minimal test plan using fixture-driven or stubbed clients."
-      ]
+      ],
+      "kind" : "paragraphs",
+      "slug" : "near-term",
+      "title" : "Near-Term"
     },
     {
-      "slug": "mid-term",
-      "title": "Mid-Term",
-      "kind": "paragraphs",
-      "items": [
+      "items" : [
         "\\- Adoption plan and docs; DocC pages for service matrix and broker selection."
-      ]
+      ],
+      "kind" : "paragraphs",
+      "slug" : "mid-term",
+      "title" : "Mid-Term"
     },
     {
-      "slug": "long-term",
-      "title": "Long-Term",
-      "kind": "paragraphs",
-      "items": [
+      "items" : [
         "\\- Roadmap for multi-broker features."
-      ]
+      ],
+      "kind" : "paragraphs",
+      "slug" : "long-term",
+      "title" : "Long-Term"
     }
   ],
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "slug" : "omni-broker-product-manager",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/product-manager/omni-broker-product-manager.agenda.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "AGENDA — OmniBroker Product Manager",
+  "updated" : "2025-09-22T03:36:15Z"
 }

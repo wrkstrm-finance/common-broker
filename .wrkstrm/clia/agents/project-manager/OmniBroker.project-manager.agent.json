@@ -1,31 +1,39 @@
 {
-  "$schemaVersion": "0.1.0",
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/project-manager/omni-broker-project-manager.agent.md"
-  },
-  "links": [],
-  "owners": [],
-  "role": "project-manager",
-  "slug": "omni-broker-project-manager",
-  "status": "draft",
-  "tags": [],
-  "title": "OmniBroker Project Manager – AGENT",
-  "updated": "2025-09-22T03:36:15Z",
-  "purpose": "Role Summary Coordinate delivery milestones for OmniBroker.",
-  "sections": [
+  "links" : [
+
+  ],
+  "notes" : [
     {
-      "slug": "omnibroker-project-manager-agent",
-      "title": "OmniBroker Project Manager – AGENT",
-      "kind": "bullets",
-      "items": [
-        "Track tasks and dependencies.",
-        "Record progress in `omni-broker-project-manager.agency.md`."
-      ]
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
     }
   ],
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "owners" : [
+
+  ],
+  "purpose" : "Role Summary Coordinate delivery milestones for OmniBroker.",
+  "role" : "project-manager",
+  "schemaVersion" : "0.3.0",
+  "sections" : [
+    {
+      "items" : [
+        "Track tasks and dependencies.",
+        "Record progress in `omni-broker-project-manager.agency.md`."
+      ],
+      "kind" : "bullets",
+      "slug" : "omnibroker-project-manager-agent",
+      "title" : "OmniBroker Project Manager – AGENT"
+    }
+  ],
+  "slug" : "omni-broker-project-manager",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/project-manager/omni-broker-project-manager.agent.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "OmniBroker Project Manager – AGENT",
+  "updated" : "2025-09-22T03:36:15Z"
 }

@@ -1,31 +1,39 @@
 {
-  "$schemaVersion": "0.1.0",
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/ios-engineer/omni-broker-ios-engineer.agent.md"
-  },
-  "links": [],
-  "owners": [],
-  "role": "ios-engineer",
-  "slug": "omni-broker-ios-engineer",
-  "status": "draft",
-  "tags": [],
-  "title": "OmniBroker iOS Engineer – AGENT",
-  "updated": "2025-09-22T03:36:15Z",
-  "purpose": "Role Summary Implement and maintain the OmniBroker Swift package.",
-  "sections": [
+  "links" : [
+
+  ],
+  "notes" : [
     {
-      "slug": "omnibroker-ios-engineer-agent",
-      "title": "OmniBroker iOS Engineer – AGENT",
-      "kind": "bullets",
-      "items": [
-        "Ensure code is formatted with `swift format`.",
-        "Run `swift test` before commits."
-      ]
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
     }
   ],
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "owners" : [
+
+  ],
+  "purpose" : "Role Summary Implement and maintain the OmniBroker Swift package.",
+  "role" : "ios-engineer",
+  "schemaVersion" : "0.3.0",
+  "sections" : [
+    {
+      "items" : [
+        "Ensure code is formatted with `swift format`.",
+        "Run `swift test` before commits."
+      ],
+      "kind" : "bullets",
+      "slug" : "omnibroker-ios-engineer-agent",
+      "title" : "OmniBroker iOS Engineer – AGENT"
+    }
+  ],
+  "slug" : "omni-broker-ios-engineer",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/ios-engineer/omni-broker-ios-engineer.agent.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "OmniBroker iOS Engineer – AGENT",
+  "updated" : "2025-09-22T03:36:15Z"
 }

@@ -1,26 +1,34 @@
 {
-  "$schemaVersion": "0.1.0",
-  "entries": [
+  "entries" : [
     {
-      "title": "OmniBroker Product Manager – AGENCY",
-      "details": [
+      "details" : [
         "Package scaffolded with quote support."
-      ]
+      ],
+      "title" : "OmniBroker Product Manager – AGENCY"
     }
   ],
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/product-manager/omni-broker-product-manager.agency.md"
-  },
-  "links": [],
-  "owners": [],
-  "slug": "omni-broker-product-manager",
-  "status": "draft",
-  "tags": [],
-  "title": "Omni Broker Product Manager Agency",
-  "updated": "2025-09-22T03:36:15Z",
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "links" : [
+
+  ],
+  "notes" : [
+    {
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
+    }
+  ],
+  "owners" : [
+
+  ],
+  "schemaVersion" : "0.3.0",
+  "slug" : "omni-broker-product-manager",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/product-manager/omni-broker-product-manager.agency.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "Omni Broker Product Manager Agency",
+  "updated" : "2025-09-22T03:36:15Z"
 }

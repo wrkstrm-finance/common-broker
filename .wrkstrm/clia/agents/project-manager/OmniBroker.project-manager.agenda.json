@@ -1,57 +1,65 @@
 {
-  "$schemaVersion": "0.1.0",
-  "agent": {
-    "role": "project-manager"
+  "agent" : {
+    "role" : "project-manager"
   },
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/project-manager/omni-broker-project-manager.agenda.md"
-  },
-  "horizons": [
+  "horizons" : [
     {
-      "key": "near",
-      "label": "Near-Term"
+      "key" : "near",
+      "label" : "Near-Term"
     },
     {
-      "key": "mid",
-      "label": "Mid-Term"
+      "key" : "mid",
+      "label" : "Mid-Term"
     },
     {
-      "key": "far",
-      "label": "Long-Term"
+      "key" : "far",
+      "label" : "Long-Term"
     }
   ],
-  "links": [],
-  "milestones": [
+  "links" : [
+
+  ],
+  "milestones" : [
     {
-      "id": "mid-1",
-      "status": "planned",
-      "title": "Release management and regression suite."
+      "id" : "mid-1",
+      "status" : "planned",
+      "title" : "Release management and regression suite."
     },
     {
-      "id": "far-1",
-      "status": "planned",
-      "title": "Sustained maintenance and security reviews."
+      "id" : "far-1",
+      "status" : "planned",
+      "title" : "Sustained maintenance and security reviews."
     }
   ],
-  "owners": [],
-  "slug": "omni-broker-project-manager",
-  "status": "draft",
-  "tags": [],
-  "title": "AGENDA — OmniBroker Project Manager",
-  "updated": "2025-09-22T03:36:15Z",
-  "sections": [
+  "notes" : [
     {
-      "slug": "near-term",
-      "title": "Near-Term",
-      "kind": "paragraphs",
-      "items": [
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
+    }
+  ],
+  "owners" : [
+
+  ],
+  "schemaVersion" : "0.3.0",
+  "sections" : [
+    {
+      "items" : [
         "\\- Task breakdown: Public-backed services (Profile, Positions, Activity, Orders) + adapters. \\- Dependencies: PublicLib APIs (done), TradierLib reference (done). \\- Risks: Field normalization differences; ensure adapters consolidate units/timestamps. \\- QA plan: Fixture-driven tests; smoke wiring in example app."
-      ]
+      ],
+      "kind" : "paragraphs",
+      "slug" : "near-term",
+      "title" : "Near-Term"
     }
   ],
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "slug" : "omni-broker-project-manager",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/project-manager/omni-broker-project-manager.agenda.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "AGENDA — OmniBroker Project Manager",
+  "updated" : "2025-09-22T03:36:15Z"
 }

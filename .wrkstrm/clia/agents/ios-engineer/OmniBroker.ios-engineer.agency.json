@@ -1,24 +1,32 @@
 {
-  "$schemaVersion": "0.1.0",
-  "entries": [
+  "entries" : [
     {
-      "title": "Agency Log — OmniBroker iOS Engineer",
-      "summary": "Seed: PJM-SPRINT initialization."
+      "summary" : "Seed: PJM-SPRINT initialization.",
+      "title" : "Agency Log — OmniBroker iOS Engineer"
     }
   ],
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/ios-engineer/omni-broker-ios-engineer.agency.md"
-  },
-  "links": [],
-  "owners": [],
-  "slug": "omni-broker-ios-engineer",
-  "status": "draft",
-  "tags": [],
-  "title": "Omni Broker Ios Engineer Agency",
-  "updated": "2025-09-22T03:36:15Z",
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "links" : [
+
+  ],
+  "notes" : [
+    {
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
+    }
+  ],
+  "owners" : [
+
+  ],
+  "schemaVersion" : "0.3.0",
+  "slug" : "omni-broker-ios-engineer",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/ios-engineer/omni-broker-ios-engineer.agency.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "Omni Broker Ios Engineer Agency",
+  "updated" : "2025-09-22T03:36:15Z"
 }

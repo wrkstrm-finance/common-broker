@@ -1,75 +1,83 @@
 {
-  "$schemaVersion": "0.1.0",
-  "agent": {
-    "role": "ios-engineer"
+  "agent" : {
+    "role" : "ios-engineer"
   },
-  "extensions": {
-    "x-source-path": "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/ios-engineer/omni-broker-ios-engineer.agenda.md"
-  },
-  "horizons": [
+  "horizons" : [
     {
-      "key": "near",
-      "label": "Near-Term"
+      "key" : "near",
+      "label" : "Near-Term"
     },
     {
-      "key": "mid",
-      "label": "Mid-Term"
+      "key" : "mid",
+      "label" : "Mid-Term"
     },
     {
-      "key": "far",
-      "label": "Long-Term"
+      "key" : "far",
+      "label" : "Long-Term"
     }
   ],
-  "links": [],
-  "milestones": [
+  "links" : [
+
+  ],
+  "milestones" : [
     {
-      "id": "near-1",
-      "status": "planned",
-      "title": "PublicProfileService → CommonProfileService + adapters (user/account/balances)"
+      "id" : "near-1",
+      "status" : "planned",
+      "title" : "PublicProfileService → CommonProfileService + adapters (user/account/balances)"
     },
     {
-      "id": "near-2",
-      "status": "planned",
-      "title": "PublicPositionsService → CommonPositionsService + adapters (positions/equity)"
+      "id" : "near-2",
+      "status" : "planned",
+      "title" : "PublicPositionsService → CommonPositionsService + adapters (positions/equity)"
     },
     {
-      "id": "near-3",
-      "status": "planned",
-      "title": "PublicActivityService → CommonActivityService + adapters (history, gain/loss)"
+      "id" : "near-3",
+      "status" : "planned",
+      "title" : "PublicActivityService → CommonActivityService + adapters (history, gain/loss)"
     },
     {
-      "id": "near-4",
-      "status": "planned",
-      "title": "PublicOrderService → CommonOrderService/CommonOrdersService + adapters (order result/status)"
+      "id" : "near-4",
+      "status" : "planned",
+      "title" : "PublicOrderService → CommonOrderService/CommonOrdersService + adapters (order result/status)"
     }
   ],
-  "owners": [],
-  "slug": "omni-broker-ios-engineer",
-  "status": "draft",
-  "tags": [],
-  "title": "AGENDA — OmniBroker iOS Engineer",
-  "updated": "2025-09-22T03:36:15Z",
-  "sections": [
+  "notes" : [
     {
-      "slug": "mid-term",
-      "title": "Mid-Term",
-      "kind": "paragraphs",
-      "items": [
+      "author" : "",
+      "blocks" : [
+
+      ],
+      "date" : ""
+    }
+  ],
+  "owners" : [
+
+  ],
+  "schemaVersion" : "0.3.0",
+  "sections" : [
+    {
+      "items" : [
         "\\- Error handling/retries and lightweight metrics around service calls."
-      ]
+      ],
+      "kind" : "paragraphs",
+      "slug" : "mid-term",
+      "title" : "Mid-Term"
     },
     {
-      "slug": "long-term",
-      "title": "Long-Term",
-      "kind": "paragraphs",
-      "items": [
+      "items" : [
         "\\- Multi-broker support at feature parity; DocC page describing OmniBroker service matrix."
-      ]
+      ],
+      "kind" : "paragraphs",
+      "slug" : "long-term",
+      "title" : "Long-Term"
     }
   ],
-  "notes": {
-    "author": "",
-    "date": "",
-    "blocks": []
-  }
+  "slug" : "omni-broker-ios-engineer",
+  "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/ios-engineer/omni-broker-ios-engineer.agenda.md",
+  "status" : "draft",
+  "tags" : [
+
+  ],
+  "title" : "AGENDA — OmniBroker iOS Engineer",
+  "updated" : "2025-09-22T03:36:15Z"
 }
