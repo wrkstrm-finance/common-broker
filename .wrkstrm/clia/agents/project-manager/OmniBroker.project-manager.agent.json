@@ -16,7 +16,7 @@
   ],
   "purpose" : "Role Summary Coordinate delivery milestones for OmniBroker.",
   "role" : "project-manager",
-  "schemaVersion" : "0.3.0",
+  "schemaVersion" : "0.4.0",
   "sections" : [
     {
       "items" : [

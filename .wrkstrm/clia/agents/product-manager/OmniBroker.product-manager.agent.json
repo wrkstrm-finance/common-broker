@@ -16,7 +16,7 @@
   ],
   "purpose" : "Role Summary Own the product direction for OmniBroker.",
   "role" : "product-manager",
-  "schemaVersion" : "0.3.0",
+  "schemaVersion" : "0.4.0",
   "sections" : [
     {
       "items" : [

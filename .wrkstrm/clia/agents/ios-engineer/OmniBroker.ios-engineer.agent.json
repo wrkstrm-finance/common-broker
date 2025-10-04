@@ -16,7 +16,7 @@
   ],
   "purpose" : "Role Summary Implement and maintain the OmniBroker Swift package.",
   "role" : "ios-engineer",
-  "schemaVersion" : "0.3.0",
+  "schemaVersion" : "0.4.0",
   "sections" : [
     {
       "items" : [

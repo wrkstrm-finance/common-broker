@@ -22,7 +22,7 @@
   "owners" : [
 
   ],
-  "schemaVersion" : "0.3.0",
+  "schemaVersion" : "0.4.0",
   "slug" : "omni-broker-product-manager",
   "sourcePath" : "code/mono/apple/spm/universal/finance/OmniBroker/.wrkstrm/clia/agents/product-manager/omni-broker-product-manager.agency.md",
   "status" : "draft",
