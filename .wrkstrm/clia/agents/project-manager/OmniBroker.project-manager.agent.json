@@ -1,4 +1,30 @@
 {
+  "contributionMix" : {
+    "primary" : [
+      {
+        "type" : "projectManagement",
+        "weight" : 4
+      },
+      {
+        "type" : "business",
+        "weight" : 2
+      },
+      {
+        "type" : "review",
+        "weight" : 2
+      },
+      {
+        "type" : "doc",
+        "weight" : 1
+      }
+    ],
+    "secondary" : [
+      {
+        "type" : "ideas",
+        "weight" : 1
+      }
+    ]
+  },
   "links" : [
 
   ],

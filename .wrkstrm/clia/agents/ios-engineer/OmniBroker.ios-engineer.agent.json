@@ -1,4 +1,30 @@
 {
+  "contributionMix" : {
+    "primary" : [
+      {
+        "type" : "code",
+        "weight" : 4
+      },
+      {
+        "type" : "test",
+        "weight" : 3
+      },
+      {
+        "type" : "infra",
+        "weight" : 2
+      },
+      {
+        "type" : "doc",
+        "weight" : 1
+      }
+    ],
+    "secondary" : [
+      {
+        "type" : "tool",
+        "weight" : 1
+      }
+    ]
+  },
   "links" : [
 
   ],
