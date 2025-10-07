@@ -1,6 +1,6 @@
 # CommonBroker AGENDA
 
-Note: Maintain this agenda live in `.wrkstrm/clia` at the CommonBroker project
+Note: Maintain this agenda live in `.clia` at the CommonBroker project
 root. Create the directory if missing so CLIA tooling and agents can surface
 current work.
 

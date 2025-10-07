@@ -3,7 +3,7 @@
 This document records architectural decisions, patterns, and lessons to guide
 future contributors working within CommonBroker.
 
-Note: Maintain this file live in the project’s `.wrkstrm/clia` directory as
+Note: Maintain this file live in the project’s `.clia` directory as
 well. If it does not exist, create it at the CommonBroker root so CLIA tooling
 discovers the latest guidance.
 
