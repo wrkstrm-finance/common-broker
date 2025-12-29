@@ -21,7 +21,7 @@ import CommonBroker
 import TradierLib
 
 let env = Tradier.HTTPSProdEnvironment(apiKey: "<token>")
-let svc = TradierProductionQuoteService(environment: env) // conforms to CommonQuoteVariantService
+let svc = TradierProductionQuoteService(environment: env)  // conforms to CommonQuoteVariantService
 
 let accountId = "<account-id>"
 let v = try await svc.quoteVariant(for: "AAPL", accountId: accountId, detail: .slim)
