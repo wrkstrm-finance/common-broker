@@ -25,6 +25,9 @@
       }
     ]
   },
+  "guardrails" : [
+    "Automation: use Swift-based launchpad/scratch tools (SPM) and avoid Python for repository automation."
+  ],
   "links" : [
 
   ],

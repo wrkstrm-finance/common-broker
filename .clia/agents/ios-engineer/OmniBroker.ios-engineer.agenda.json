@@ -53,6 +53,9 @@
   "owners" : [
 
   ],
+  "principles" : [
+    "Automation: use Swift-based launchpad/scratch tools (SPM) and avoid Python for repository automation."
+  ],
   "schemaVersion" : "0.4.0",
   "sections" : [
     {
