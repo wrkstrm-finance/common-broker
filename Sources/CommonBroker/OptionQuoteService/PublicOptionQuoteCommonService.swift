@@ -3,8 +3,7 @@ import PublicLib
 import WrkstrmMain
 import WrkstrmNetworking
 
-public struct PublicOptionQuoteCommonService: CommonOptionQuoteService, Sendable
-{
+public struct PublicOptionQuoteCommonService: CommonOptionQuoteService, Sendable {
   public nonisolated let serviceName: String = "Public"
   public nonisolated let serviceType: ServiceType = .production
 
