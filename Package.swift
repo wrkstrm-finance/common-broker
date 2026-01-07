@@ -16,6 +16,10 @@ let package: Package = .init(
     .package(name: "WrkstrmMain", path: "../../../../WrkstrmMain"),
     .package(name: "WrkstrmLog", path: "../../../../WrkstrmLog"),
     .package(name: "WrkstrmFoundation", path: "../../../../WrkstrmFoundation"),
+    .package(
+      name: "WrkstrmNetworking",
+      path: "../../../../domain/system/wrkstrm-networking"
+    ),
     .package(name: "SchwabLib", path: "../schwab-lib"),
     .package(name: "TradierLib", path: "../tradier-lib"),
     .package(name: "PublicLib", path: "../public-lib"),
@@ -28,7 +32,7 @@ let package: Package = .init(
         .product(name: "WrkstrmMain", package: "WrkstrmMain"),
         .product(name: "WrkstrmLog", package: "WrkstrmLog"),
         .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmNetworking", package: "WrkstrmFoundation"),
+        .product(name: "WrkstrmNetworking", package: "WrkstrmNetworking"),
         .product(name: "SchwabLib", package: "SchwabLib"),
         .product(name: "TradierLib", package: "TradierLib"),
         .product(name: "PublicLib", package: "PublicLib"),
