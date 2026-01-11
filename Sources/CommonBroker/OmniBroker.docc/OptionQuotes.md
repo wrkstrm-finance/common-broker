@@ -57,7 +57,7 @@ let q = try await svc.optionQuote(for: symbol, accountId: accountId)
 
 Public’s quote endpoint does not include greeks or structured option metadata. The `CommonOptionQuote` adapter parses OSI symbols to derive `underlying`, `expirationDate`, `optionType`, and `strike`.
 
-### Public With Greeks Composition
+### Public with Greeks Composition
 
 CommonBroker composes Public’s quotes with a small greeks request when available and fills a unified `iv` (implied volatility).
 
