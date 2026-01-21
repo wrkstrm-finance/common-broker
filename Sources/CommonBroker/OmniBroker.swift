@@ -3,7 +3,7 @@ import SchwabLib
 import TastyTradeLib
 import TradierLib
 import WrkstrmFoundation
-import WrkstrmLog
+import CommonLog
 import WrkstrmMain
 
 public typealias BrokerageSandboxEnvironment = Tradier.HTTPSSandboxEnvironment

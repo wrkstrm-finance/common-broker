@@ -17,7 +17,7 @@ For patterns used here (service protocols, vendor adapters, DI/testing, concurre
 platform targeting), see:
 
 - `../../swift-service-architecture.md` — Swift service architecture for CommonShell and CommonBroker,
-  including notes on compiling out incompatible code per-platform and using WrkstrmLog with a
+  including notes on compiling out incompatible code per-platform and using CommonLog with a
   print-only backend on WASM.
 
 ## JSON key mapping: Do/Don’t

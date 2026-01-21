@@ -14,7 +14,7 @@ let package: Package = .init(
   ],
   dependencies: [
     .package(name: "WrkstrmMain", path: "../../../../WrkstrmMain"),
-    .package(name: "WrkstrmLog", path: "../../../../WrkstrmLog"),
+    .package(name: "common/domain/system/common-log", path: "../../../../common/domain/system/common-log"),
     .package(name: "WrkstrmFoundation", path: "../../../../WrkstrmFoundation"),
     .package(
       name: "WrkstrmNetworking",
@@ -30,7 +30,7 @@ let package: Package = .init(
       name: "CommonBroker",
       dependencies: [
         .product(name: "WrkstrmMain", package: "WrkstrmMain"),
-        .product(name: "WrkstrmLog", package: "WrkstrmLog"),
+        .product(name: "CommonLog", package: "CommonLog"),
         .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
         .product(name: "WrkstrmNetworking", package: "WrkstrmNetworking"),
         .product(name: "SchwabLib", package: "SchwabLib"),
