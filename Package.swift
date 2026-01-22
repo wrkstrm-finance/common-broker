@@ -17,7 +17,7 @@ let package: Package = .init(
     .package(name: "common-log", path: "../../../../common/domain/system/common-log"),
     .package(name: "WrkstrmFoundation", path: "../../../../WrkstrmFoundation"),
     .package(
-      name: "WrkstrmNetworking",
+      name: "wrkstrm-networking",
       path: "../../../../domain/system/wrkstrm-networking"
     ),
     .package(name: "SchwabLib", path: "../schwab-lib"),
@@ -32,7 +32,7 @@ let package: Package = .init(
         .product(name: "WrkstrmMain", package: "WrkstrmMain"),
         .product(name: "CommonLog", package: "common-log"),
         .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
-        .product(name: "WrkstrmNetworking", package: "WrkstrmNetworking"),
+        .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
         .product(name: "SchwabLib", package: "SchwabLib"),
         .product(name: "TradierLib", package: "TradierLib"),
         .product(name: "PublicLib", package: "PublicLib"),
