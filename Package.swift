@@ -13,7 +13,7 @@ let package: Package = .init(
     .library(name: "CommonBroker", targets: ["CommonBroker"])
   ],
   dependencies: [
-    .package(name: "WrkstrmMain", path: "../../../../WrkstrmMain"),
+    .package(name: "wrkstrm-main", path: "../../../../domain/system/wrkstrm-main"),
     .package(name: "common-log", path: "../../../../common/domain/system/common-log"),
     .package(name: "wrkstrm-foundation", path: "../../../../domain/system/wrkstrm-foundation"),
     .package(
@@ -29,9 +29,9 @@ let package: Package = .init(
     .target(
       name: "CommonBroker",
       dependencies: [
-        .product(name: "WrkstrmMain", package: "WrkstrmMain"),
+        .product(name: "WrkstrmMain", package: "wrkstrm-main"),
         .product(name: "CommonLog", package: "common-log"),
-        .product(name: "WrkstrmFoundation", package: "WrkstrmFoundation"),
+        .product(name: "wrkstrm-foundation", package: "wrkstrm-foundation"),
         .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
         .product(name: "SchwabLib", package: "SchwabLib"),
         .product(name: "TradierLib", package: "TradierLib"),
