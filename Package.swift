@@ -15,7 +15,7 @@ let package: Package = .init(
   dependencies: [
     .package(name: "WrkstrmMain", path: "../../../../WrkstrmMain"),
     .package(name: "common-log", path: "../../../../common/domain/system/common-log"),
-    .package(name: "WrkstrmFoundation", path: "../../../../WrkstrmFoundation"),
+    .package(name: "wrkstrm-foundation", path: "../../../../domain/system/wrkstrm-foundation"),
     .package(
       name: "wrkstrm-networking",
       path: "../../../../domain/system/wrkstrm-networking"
