@@ -31,7 +31,7 @@ let package: Package = .init(
       dependencies: [
         .product(name: "WrkstrmMain", package: "wrkstrm-main"),
         .product(name: "CommonLog", package: "common-log"),
-        .product(name: "wrkstrm-foundation", package: "wrkstrm-foundation"),
+        .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation"),
         .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
         .product(name: "SchwabLib", package: "SchwabLib"),
         .product(name: "TradierLib", package: "TradierLib"),
