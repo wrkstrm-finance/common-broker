@@ -37,13 +37,13 @@ let dependencies: [Package.Dependency] = {
   }
 
   return [
-    .package(url: "https://github.com/wrkstrm/wrkstrm-main.git", from: "3.0.0"),
-    .package(url: "https://github.com/wrkstrm/common-log.git", from: "3.0.0"),
-    .package(url: "https://github.com/wrkstrm/wrkstrm-foundation.git", from: "3.0.0"),
-    .package(url: "https://github.com/wrkstrm/wrkstrm-networking.git", from: "3.0.0"),
-    .package(url: "https://github.com/wrkstrm/schwab-lib.git", from: "0.1.0"),
-    .package(url: "https://github.com/wrkstrm/tradier-lib.git", from: "0.1.0"),
-    .package(url: "https://github.com/wrkstrm/tasty-trade-lib.git", from: "0.1.0"),
+    .package(name: "wrkstrm-main", url: "https://github.com/wrkstrm/wrkstrm-main.git", from: "3.0.0"),
+    .package(name: "common-log", url: "https://github.com/wrkstrm/common-log.git", from: "3.0.0"),
+    .package(name: "wrkstrm-foundation", url: "https://github.com/wrkstrm/wrkstrm-foundation.git", from: "3.0.0"),
+    .package(name: "wrkstrm-networking", url: "https://github.com/wrkstrm/wrkstrm-networking.git", from: "3.0.0"),
+    .package(name: "SchwabLib", url: "https://github.com/wrkstrm/schwab-lib.git", from: "0.1.0"),
+    .package(name: "TradierLib", url: "https://github.com/wrkstrm/tradier-lib.git", from: "0.1.0"),
+    .package(name: "TastyTradeLib", url: "https://github.com/wrkstrm/tasty-trade-lib.git", from: "0.1.0"),
   ]
 }()
 
