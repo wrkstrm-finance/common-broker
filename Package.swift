@@ -2,8 +2,23 @@
 import Foundation
 import PackageDescription
 
-let useLocalDependencies: Bool =
-  ProcessInfo.processInfo.environment["SPM_USE_LOCAL_DEPS"] == "true"
+let localDependencyPaths: [String] = [
+  "../../../../domain/system/wrkstrm-main",
+  "../../../../common/domain/system/common-log",
+  "../../../../domain/system/wrkstrm-foundation",
+  "../../../../domain/system/wrkstrm-networking",
+  "../schwab-lib",
+  "../tradier-lib",
+  "../tasty-trade-lib",
+]
+
+let useLocalDependencies: Bool = {
+  guard ProcessInfo.processInfo.environment["SPM_USE_LOCAL_DEPS"] == "true" else {
+    return false
+  }
+  let fm = FileManager.default
+  return localDependencyPaths.allSatisfy { fm.fileExists(atPath: $0) }
+}()
 
 let dependencies: [Package.Dependency] = {
   if useLocalDependencies {
