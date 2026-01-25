@@ -1,0 +1,24 @@
+name: "✅ Tests | CommonBroker"
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  swift-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Cache SPM dependencies
+        id: cache-spm
+        uses: actions/cache@v4
+        with:
+          path: .build
+          key: ${{ runner.os }}-spm-CommonBroker-${{ hashFiles('**/Package.resolved', '**/Package.swift') }}
+          restore-keys: ${{ runner.os }}-spm-CommonBroker-
+      - name: Swift Test
+        run: swift test --parallel

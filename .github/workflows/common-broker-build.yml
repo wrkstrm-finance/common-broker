@@ -1,0 +1,27 @@
+name: "🏗️ Build | CommonBroker"
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  swift-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Cache SPM dependencies
+        id: cache-spm
+        uses: actions/cache@v4
+        with:
+          path: .build
+          key: ${{ runner.os }}-spm-CommonBroker-${{ hashFiles('**/Package.resolved', '**/Package.swift') }}
+          restore-keys: ${{ runner.os }}-spm-CommonBroker-
+      - name: Swift Describe
+        if: steps.cache-spm.outputs.cache-hit != 'true'
+        run: swift package describe --type json
+      - name: Swift Build
+        run: swift build --target CommonBroker
