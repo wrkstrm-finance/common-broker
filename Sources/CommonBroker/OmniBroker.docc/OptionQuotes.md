@@ -53,30 +53,4 @@ let accountId = "<account-id>"
 let q = try await svc.optionQuote(for: symbol, accountId: accountId)
 ```
 
-## PublicLib Strategy
-
-Public’s quote endpoint does not include greeks or structured option metadata. The `CommonOptionQuote` adapter parses OSI symbols to derive `underlying`, `expirationDate`, `optionType`, and `strike`.
-
-### Public with Greeks Composition
-
-CommonBroker composes Public’s quotes with a small greeks request when available and fills a unified `iv` (implied volatility).
-
-```swift
-import CommonBroker
-import PublicLib
-
-// Auth setup (see PublicLib docs for details)
-let authEnv = PublicRequestAuthenticator.HTTPSPublicAuthEnvironment()
-let storage = AccessTokenStorage(token: "<refresh-secret>", validityInMinutes: 15)
-let authenticator = PublicRequestAuthenticator(environment: authEnv, tokenStorage: storage)
-let client = PublicClient(authenticator: authenticator)
-
-let optionSvc = PublicOptionQuoteCommonService(client: client)
-let accountId = "<account-id>"
-let symbol = "AAPL250117C00180000"
-
-let oq = try await optionSvc.optionQuote(for: symbol, accountId: accountId)
-// oq.greeks?.iv contains implied volatility when returned by Public
-```
-
 See also: <doc:OptionGreeks> for the unified greeks model and mapping details.

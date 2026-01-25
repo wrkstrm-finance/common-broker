@@ -21,19 +21,6 @@ This matrix summarizes current and planned coverage of CommonBroker’s Common s
 - Reference: ✅ (`TradierReferenceService`: symbol search/lookup)
 - Streaming: ⏳ (options/positions streaming design under review)
 
-## Public
-
-- Quote: ✅ (`PublicQuoteCommonService`)
-- Option Quotes: ✅ (Composed greeks; unified `iv` via `PublicOptionQuoteCommonService`)
-- Market: 🧩 (clock, calendar, time sales)
-- Profile: ✅ (`PublicProfileService` using Accounts/Portfolio)
-- Positions: ✅ (`PublicPositionsService` via Portfolio)
-- Activity: ✅ (`PublicActivityService` via History)
-- Orders: 🧩 (Public-backed CommonOrderService/CommonOrdersService)
-- Watchlist: ⏳ (API review)
-- Reference: 🧩 (symbol search/lookup)
-- Streaming: ⏳ (API review)
-
 ## Adapter Notes
 
 - Normalize sizes to shares/units and timestamps to `Date` in adapters.
@@ -42,5 +29,4 @@ This matrix summarizes current and planned coverage of CommonBroker’s Common s
 
 ## Next Steps
 
-- Complete Public-backed services and adapters; validate with fixture-driven tests.
 - Introduce a simple ServiceRegistry to select broker/environment services.

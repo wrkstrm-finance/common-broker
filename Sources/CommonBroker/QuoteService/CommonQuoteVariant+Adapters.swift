@@ -1,5 +1,4 @@
 import Foundation
-import PublicLib
 import TradierLib
 
 extension CommonQuoteVariant {
@@ -22,12 +21,6 @@ extension CommonQuoteVariant {
   public init(_ tradierQuote: Tradier.Quote) {
     let full = CommonQuoteDetailed(CommonQuote(tradierQuote))
     self = .full(full)
-  }
-
-  // Adapter from Public SDK model to a variant (Public provides slim fields).
-  public init(_ publicQuote: PublicLib.Quote) {
-    let detailed = CommonQuoteDetailed(CommonQuote(publicQuote))
-    self = .slim(CommonQuoteEssentials(detailed))
   }
 }
 

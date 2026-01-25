@@ -33,11 +33,6 @@ All fields are optional. Consumers should render only the values that are presen
   - Provides `bidIv`, `midIv`, `askIv`; CommonBroker also sets `iv = midIv` for convenience.
   - ``updatedAt`` populated when present in the payload.
 
-- Public
-  - Quotes endpoint omits greeks; CommonBroker composes a small greeks request when available.
-  - Maps `delta`, `gamma`, `theta`, `vega`, `rho` directly (string → Double).
-  - Maps `impliedVolatility` to unified `iv`; leaves `bidIv/midIv/askIv` nil.
-
 ## Rendering Guidance
 
 - Prefer showing a single IV when available: use `iv` if non‑nil; otherwise consider `midIv`.
