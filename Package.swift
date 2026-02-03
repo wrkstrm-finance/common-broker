@@ -1,16 +1,6 @@
-// swift-tools-version:6.1
+// swift-tools-version:6.2
 import Foundation
 import PackageDescription
-
-let localDependencyPaths: [String] = [
-  "../../../../domain/system/wrkstrm-main",
-  "../../../../common/domain/system/common-log",
-  "../../../../domain/system/wrkstrm-foundation",
-  "../../../../domain/system/wrkstrm-networking",
-  "../schwab-lib",
-  "../tradier-lib",
-  "../tasty-trade-lib",
-]
 
 let useLocalDependencies: Bool = {
   guard ProcessInfo.processInfo.environment["SPM_USE_LOCAL_DEPS"] == "true" else {
@@ -23,13 +13,10 @@ let useLocalDependencies: Bool = {
 let dependencies: [Package.Dependency] = {
   if useLocalDependencies {
     return [
-      .package(name: "common-log", path: "../../../../domain/system/common-log"),
-      .package(name: "wrkstrm-main", path: "../../../../domain/system/wrkstrm-main"),
-      .package(name: "wrkstrm-foundation", path: "../../../../domain/system/wrkstrm-foundation"),
-      .package(
-        name: "wrkstrm-networking",
-        path: "../../../../domain/system/wrkstrm-networking"
-      )
+      .package(path: "../../../../domain/system/common-log"),
+      .package(path: "../../../../domain/system/wrkstrm-main"),
+      .package(path: "../../../../domain/system/wrkstrm-foundation"),
+      .package(path: "../../../../domain/system/wrkstrm-networking")
     ]
   }
 
