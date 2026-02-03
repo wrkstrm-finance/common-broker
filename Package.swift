@@ -48,8 +48,6 @@ let package: Package = .init(
       .product(name: "CommonLog", package: "common-log"),
       .product(name: "WrkstrmFoundation", package: "wrkstrm-foundation"),
       .product(name: "WrkstrmNetworking", package: "wrkstrm-networking"),
-      .product(name: "SchwabLib", package: "SchwabLib"),
-      .product(name: "TradierLib", package: "TradierLib"),
     ]
   ),
     .testTarget(
