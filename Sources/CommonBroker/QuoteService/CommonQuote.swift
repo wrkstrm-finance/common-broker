@@ -1,6 +1,4 @@
-#if canImport(TradierLib)
 import Foundation
-import TradierLib
 
 /// Broker-agnostic normalized quote used across the app.
 public struct CommonQuote: Sendable, Hashable {
@@ -68,4 +66,3 @@ public struct CommonGreeks: Sendable, Hashable {
   public let smvVol: Double?
   public let updatedAt: Date?
 }
-#endif
