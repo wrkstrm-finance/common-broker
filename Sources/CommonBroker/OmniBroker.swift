@@ -1,3 +1,4 @@
+#if canImport(TastyTradeLib)
 #if canImport(TradierLib)
 import SchwabLib
 import TastyTradeLib
@@ -37,4 +38,5 @@ public actor OmniBroker {
     authService.authenticationStatus()
   }
 }
+#endif
 #endif

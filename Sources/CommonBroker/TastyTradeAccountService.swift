@@ -1,3 +1,4 @@
+#if canImport(TastyTradeLib)
 import TastyTradeLib
 
 public struct TastyTradeAccountService: AccountService {
@@ -11,3 +12,4 @@ public struct TastyTradeAccountService: AccountService {
     try await client.fetchAccounts()
   }
 }
+#endif
