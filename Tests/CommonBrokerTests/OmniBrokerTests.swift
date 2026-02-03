@@ -7,6 +7,8 @@ import Testing
 import FoundationNetworking
 #endif
 
+#if canImport(TradierLib) && canImport(TastyTradeLib)
+
 extension Bundle {
   func json(named name: String) throws -> Data {
     guard let url: URL = url(forResource: name, withExtension: "json") else {
@@ -155,3 +157,5 @@ final class TradierURLProtocol: URLProtocol {
 
   override func stopLoading() {}
 }
+
+#endif
