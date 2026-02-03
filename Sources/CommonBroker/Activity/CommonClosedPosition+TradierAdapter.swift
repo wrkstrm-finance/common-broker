@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -14,3 +15,4 @@ extension CommonClosedPosition {
     term = cp.term
   }
 }
+#endif

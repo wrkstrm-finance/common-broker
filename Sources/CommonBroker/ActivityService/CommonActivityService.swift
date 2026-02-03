@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -20,3 +21,4 @@ public protocol CommonActivityService: CommonService {
     symbol: String?,
   ) async throws -> [CommonClosedPosition]
 }
+#endif

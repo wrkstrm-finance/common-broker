@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -68,3 +69,4 @@ public struct TradierProductionQuoteService: CommonQuoteService, CommonQuoteVari
     }
   }
 }
+#endif

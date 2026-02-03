@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -41,3 +42,4 @@ public struct TradierPositionsService: CommonPositionsService, Sendable {
     try await positions(for: accountId)
   }
 }
+#endif

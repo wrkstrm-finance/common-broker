@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -8,3 +9,4 @@ extension CommonUserProfile {
     email = "N/A"
   }
 }
+#endif

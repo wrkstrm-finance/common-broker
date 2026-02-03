@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import Testing
 import TradierLib
@@ -77,3 +78,4 @@ func sandboxProfileService_maps_account_balances() async throws {
   return
   #endif
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -70,3 +71,4 @@ public struct TradierActivityService: CommonActivityService, Sendable {
     return closed.map(CommonClosedPosition.init)
   }
 }
+#endif

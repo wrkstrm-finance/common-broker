@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -46,3 +47,4 @@ public protocol CommonOrderService: CommonService {
     orderId: String,
   ) async throws -> CommonOrder
 }
+#endif

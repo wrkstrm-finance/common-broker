@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Testing
 import TradierLib
 
@@ -57,3 +58,4 @@ func commonQuote_adapts_from_tradier_quote() throws {
   #expect(cq.bidDate != nil)
   #expect(cq.askDate != nil)
 }
+#endif

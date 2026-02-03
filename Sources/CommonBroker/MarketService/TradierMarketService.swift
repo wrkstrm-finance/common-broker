@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -122,3 +123,4 @@ public struct TradierMarketService: CommonMarketService, Sendable {
     return sales.map(CommonTimeSale.init)
   }
 }
+#endif

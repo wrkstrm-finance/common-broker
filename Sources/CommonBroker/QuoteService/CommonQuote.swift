@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -67,3 +68,4 @@ public struct CommonGreeks: Sendable, Hashable {
   public let smvVol: Double?
   public let updatedAt: Date?
 }
+#endif

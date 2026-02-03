@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -55,3 +56,4 @@ public struct TradierOptionQuoteService: OptionQuoteService, Sendable {
     return quotes[0]
   }
 }
+#endif

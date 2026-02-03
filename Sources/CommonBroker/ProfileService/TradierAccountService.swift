@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import TradierLib
 
 public struct TradierAccountService: AccountService {
@@ -11,3 +12,4 @@ public struct TradierAccountService: AccountService {
     try await client.fetchAccounts()
   }
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -36,3 +37,4 @@ public struct TradierProductionProfileService: CommonProfileService, Sendable {
     return CommonAccountBalance(response)
   }
 }
+#endif

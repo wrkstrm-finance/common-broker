@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -42,3 +43,4 @@ public struct TradierOptionQuoteCommonService: CommonOptionQuoteService, Sendabl
     return CommonOptionQuote(q)
   }
 }
+#endif

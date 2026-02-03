@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmNetworking
@@ -117,3 +118,4 @@ public struct TradierOrderService: CommonOrderService, Sendable {
     return CommonOrder(resp.order)
   }
 }
+#endif

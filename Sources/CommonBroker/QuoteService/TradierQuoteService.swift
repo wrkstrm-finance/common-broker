@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import CommonBroker
 import Foundation
 import TradierLib
@@ -79,3 +80,4 @@ public struct TradierSandboxQuoteService: CommonQuoteService, CommonQuoteVariant
     }
   }
 }
+#endif

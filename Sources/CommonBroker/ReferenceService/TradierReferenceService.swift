@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -48,3 +49,4 @@ public struct TradierReferenceService: CommonReferenceService, Sendable {
     return results.map(CommonSymbol.init)
   }
 }
+#endif

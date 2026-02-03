@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import Testing
 import TradierLib
@@ -54,3 +55,4 @@ func tradierQuoteService_maps_multiple_quotes() async throws {
   #expect(cqs[0].last == 100)
   #expect(cqs[1].last == 300)
 }
+#endif

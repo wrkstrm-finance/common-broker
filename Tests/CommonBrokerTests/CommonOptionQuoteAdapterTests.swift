@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Testing
 import TradierLib
 
@@ -24,3 +25,4 @@ func commonOptionQuote_adapts_from_tradier_quote() throws {
   #expect(cq.optionType == "call")
   #expect(cq.expirationDate != nil)
 }
+#endif

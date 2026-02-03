@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -66,3 +67,4 @@ enum TestDecodeHelper {
     return try decode(json, as: Tradier.Balance.self)
   }
 }
+#endif

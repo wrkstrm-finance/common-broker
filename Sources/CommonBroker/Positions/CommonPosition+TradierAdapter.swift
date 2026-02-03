@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -19,3 +20,4 @@ extension CommonPosition {
     underlying = position.underlying
   }
 }
+#endif

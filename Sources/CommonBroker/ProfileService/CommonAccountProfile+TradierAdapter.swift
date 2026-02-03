@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -34,3 +35,4 @@ extension CommonAccountProfile {
     }
   }
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 import WrkstrmFoundation
@@ -112,3 +113,4 @@ public struct TradierWatchlistService: CommonWatchlistService, Sendable {
     _ = try await client.client.send(req) as Tradier.WatchlistsRoot
   }
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import TradierLib
 
@@ -31,3 +32,4 @@ extension CommonActivityEvent {
     }
   }
 }
+#endif

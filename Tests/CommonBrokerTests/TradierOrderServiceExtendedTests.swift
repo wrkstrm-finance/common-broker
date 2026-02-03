@@ -1,3 +1,4 @@
+#if canImport(TradierLib)
 import Foundation
 import Testing
 import TradierLib
@@ -100,3 +101,4 @@ struct TradierOrderServiceExtendedTests {
     return try! JSONSerialization.data(withJSONObject: dict)
   }
 }
+#endif
