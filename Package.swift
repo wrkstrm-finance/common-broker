@@ -23,25 +23,21 @@ let useLocalDependencies: Bool = {
 let dependencies: [Package.Dependency] = {
   if useLocalDependencies {
     return [
+      .package(name: "common-log", path: "../../../../domain/system/common-log"),
       .package(name: "wrkstrm-main", path: "../../../../domain/system/wrkstrm-main"),
-      .package(name: "common-log", path: "../../../../common/domain/system/common-log"),
       .package(name: "wrkstrm-foundation", path: "../../../../domain/system/wrkstrm-foundation"),
       .package(
         name: "wrkstrm-networking",
         path: "../../../../domain/system/wrkstrm-networking"
-      ),
-      .package(name: "SchwabLib", path: "../schwab-lib"),
-      .package(name: "TradierLib", path: "../tradier-lib"),
+      )
     ]
   }
 
   return [
     .package(name: "wrkstrm-main", url: "https://github.com/wrkstrm/wrkstrm-main.git", from: "3.0.0"),
-    .package(name: "common-log", url: "https://github.com/wrkstrm/common-log.git", from: "3.0.0"),
+    .package(name: "common-log", url: "https://github.com/swift-universal/common-log.git", from: "3.0.0"),
     .package(name: "wrkstrm-foundation", url: "https://github.com/wrkstrm/wrkstrm-foundation.git", from: "3.0.0"),
     .package(name: "wrkstrm-networking", url: "https://github.com/wrkstrm/wrkstrm-networking.git", from: "3.0.0"),
-    .package(name: "SchwabLib", url: "https://github.com/wrkstrm/schwab-lib.git", from: "0.1.0"),
-    .package(name: "TradierLib", url: "https://github.com/wrkstrm/tradier-lib.git", from: "0.1.0"),
   ]
 }()
 
