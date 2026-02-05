@@ -1,4 +1,3 @@
-#if canImport(TradierLib)
 import Foundation
 
 public enum CommonOrderSide: String, CaseIterable, Sendable {
@@ -67,4 +66,3 @@ public protocol CommonOrderService: CommonService {
     orderId: String,
   ) async throws -> CommonOrder
 }
-#endif

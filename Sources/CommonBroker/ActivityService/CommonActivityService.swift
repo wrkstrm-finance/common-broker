@@ -1,4 +1,3 @@
-#if canImport(TradierLib)
 import Foundation
 
 public enum CommonHistoryEventType: String, CaseIterable, Sendable {
@@ -36,4 +35,3 @@ public protocol CommonActivityService: CommonService {
     symbol: String?,
   ) async throws -> [CommonClosedPosition]
 }
-#endif

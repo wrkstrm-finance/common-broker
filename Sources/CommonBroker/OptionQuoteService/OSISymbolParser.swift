@@ -1,10 +1,10 @@
 import Foundation
 
-enum OSISymbolParser {
+public enum OSISymbolParser {
   /// Parses an OCC OSI option symbol.
   /// Expected shape (no spaces): `<root><yymmdd><C|P><strike x1000 (8 digits)>`
   /// Example: `AAPL250117C00180000` → root=AAPL, date=2025-01-17, type=C, strike=180.0
-  static func parse(_ symbol: String) -> (
+  public static func parse(_ symbol: String) -> (
     root: String, expiration: Date?, type: String?, strike: Double?
   ) {
     guard symbol.count >= 15 else { return (symbol, nil, nil, nil) }

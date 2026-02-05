@@ -1,4 +1,3 @@
-#if canImport(TradierLib)
 import Foundation
 
 extension CommonQuoteVariant {
@@ -28,4 +27,3 @@ extension CommonQuoteVariant {
     }
   }
 }
-#endif
