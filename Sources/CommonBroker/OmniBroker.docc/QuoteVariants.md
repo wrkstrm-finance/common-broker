@@ -18,6 +18,7 @@ Services that conform to `CommonQuoteService` can also support variants by adopt
 
 ```swift
 import CommonBroker
+import TradierBrokerageCommonAdapters
 import TradierLib
 
 let env = Tradier.HTTPSProdEnvironment(apiKey: "<token>")

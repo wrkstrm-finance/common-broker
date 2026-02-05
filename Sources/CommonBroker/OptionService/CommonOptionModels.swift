@@ -11,4 +11,16 @@ public struct CommonOptionExpiration: Sendable, Hashable, Identifiable {
   public let dateString: String
   public let expirationType: String
   public let strikes: [Double]
+
+  public init(
+    date: Date,
+    dateString: String,
+    expirationType: String,
+    strikes: [Double],
+  ) {
+    self.date = date
+    self.dateString = dateString
+    self.expirationType = expirationType
+    self.strikes = strikes
+  }
 }

@@ -10,6 +10,7 @@ This matrix summarizes current and planned coverage of CommonBroker’s Common s
 
 ## Tradier
 
+- Note: Tradier implementations live in `TradierBrokerageCommonAdapters` (swift-tradier-lib).
 - Quote: ✅ (`TradierSandboxQuoteService`, `TradierProductionQuoteService`)
 - Options: ✅ (`TradierOptionService`: expirations, quotes, chain)
 - Market: ✅ (`TradierMarketService`: clock, calendar, time sales)

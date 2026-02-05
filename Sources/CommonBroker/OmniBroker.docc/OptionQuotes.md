@@ -8,6 +8,7 @@ Use `CommonOptionQuoteService` when you want a normalized `CommonOptionQuote` th
 
 ```swift
 import CommonBroker
+import TradierBrokerageCommonAdapters
 import TradierLib
 
 // Choose environment and token (sandbox shown here)
@@ -30,6 +31,7 @@ If you need full `Tradier.Quote` with all fields intact, use `TradierOptionQuote
 
 ```swift
 import CommonBroker
+import TradierBrokerageCommonAdapters
 import TradierLib
 
 let env = Tradier.HTTPSSandboxEnvironment(apiKey: "<token>")

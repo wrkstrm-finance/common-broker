@@ -16,4 +16,36 @@ public struct CommonPosition: Codable, Sendable, Hashable {
   public let strike: Double?
   public let optionType: String?
   public let underlying: String?
+
+  public init(
+    symbol: String,
+    quantity: Double,
+    costBasis: Double?,
+    marketValue: Double?,
+    side: String?,
+    id: Int?,
+    account: String?,
+    accountId: String?,
+    dateAcquired: Date?,
+    pricePaid: Double?,
+    expirationDate: Date?,
+    strike: Double?,
+    optionType: String?,
+    underlying: String?,
+  ) {
+    self.symbol = symbol
+    self.quantity = quantity
+    self.costBasis = costBasis
+    self.marketValue = marketValue
+    self.side = side
+    self.id = id
+    self.account = account
+    self.accountId = accountId
+    self.dateAcquired = dateAcquired
+    self.pricePaid = pricePaid
+    self.expirationDate = expirationDate
+    self.strike = strike
+    self.optionType = optionType
+    self.underlying = underlying
+  }
 }

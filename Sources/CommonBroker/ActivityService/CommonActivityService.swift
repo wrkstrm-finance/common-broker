@@ -1,21 +1,36 @@
 #if canImport(TradierLib)
 import Foundation
-import TradierLib
+
+public enum CommonHistoryEventType: String, CaseIterable, Sendable {
+  case trade
+  case ach
+  case transfer
+}
+
+public enum CommonGainLossSortBy: String, CaseIterable, Sendable {
+  case openDate
+  case closeDate
+}
+
+public enum CommonSortDirection: String, CaseIterable, Sendable {
+  case asc
+  case desc
+}
 
 public protocol CommonActivityService: CommonService {
   func history(
     for accountId: String,
     start: Date?,
     end: Date?,
-    type: Tradier.HistoryEventType?,
+    type: CommonHistoryEventType?,
   ) async throws -> [CommonActivityEvent]
 
   func gainLoss(
     for accountId: String,
     page: Int?,
     limit: Int?,
-    sortBy: Tradier.AccountGainLossRequest.SortBy?,
-    sort: Tradier.AccountGainLossRequest.SortDirection?,
+    sortBy: CommonGainLossSortBy?,
+    sort: CommonSortDirection?,
     start: Date?,
     end: Date?,
     symbol: String?,

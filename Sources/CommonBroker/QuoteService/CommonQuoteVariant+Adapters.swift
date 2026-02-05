@@ -1,6 +1,5 @@
 #if canImport(TradierLib)
 import Foundation
-import TradierLib
 
 extension CommonQuoteVariant {
   // Create a variant from a full common quote model.
@@ -18,11 +17,6 @@ extension CommonQuoteVariant {
     self = .slim(essentials)
   }
 
-  // Adapter from Tradier SDK model to a variant (defaults to .full).
-  public init(_ tradierQuote: Tradier.Quote) {
-    let full = CommonQuoteDetailed(CommonQuote(tradierQuote))
-    self = .full(full)
-  }
 }
 
 extension CommonQuoteVariant {
