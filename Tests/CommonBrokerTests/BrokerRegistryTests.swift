@@ -5,9 +5,28 @@ import Testing
 @Test
 func capabilityMatrix() async throws {
   let expected: [Broker: Set<BrokerageService>] = [
-    .schwab: [.auth, .account, .quote, .watchlist],
-    .tradier: [.auth, .account, .quote, .greeks, .watchlist, .positionStreaming],
-    .public: [.auth, .account, .quote],
+    .schwab: [.auth, .account, .secret, .quote, .optionQuote, .watchlist],
+    .tradier: [
+      .auth,
+      .account,
+      .secret,
+      .quote,
+      .quoteVariants,
+      .options,
+      .optionQuote,
+      .optionGreeks,
+      .market,
+      .profile,
+      .positions,
+      .activity,
+      .order,
+      .orders,
+      .reference,
+      .watchlist,
+      .optionStreaming,
+      .positionStreaming,
+    ],
+    .public: [.auth, .account, .secret, .quote, .optionQuote],
     .tastytrade: [.auth, .account],
   ]
   for (broker, services) in expected {
